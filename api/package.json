@@ -1,0 +1,12 @@
+{
+  "name": "api",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start:dev": "nodemon src/index.mjs"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}

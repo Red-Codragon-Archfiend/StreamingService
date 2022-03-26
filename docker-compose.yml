@@ -1,0 +1,17 @@
+version: '3.8'
+
+services:
+
+  service-api:
+    build:
+      context: ./api
+      dockerfile: Dockerfile.dev
+    ports:
+      - "3000:3000"
+    volumes:
+      - ./api/src:/usr/app/src
+    tty: true
+    stdin_open: true
+    environment:
+      API_PORT: "3000"
+      CHOKIDAR_USEPOLLING: "true"
