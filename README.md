@@ -9,3 +9,5 @@ Run: ````docker-compose up --build -d````
 To check log output: ````docker logs ${container-name} -f ````
 
 Default Port: ```3000```
+
+![Progress Steps Gif](./images/thumbnail.png)
