@@ -2,7 +2,7 @@ version: '3.8'
 
 services:
 
-  service-api:
+  v-streamer-api:
     build:
       context: ./api
       dockerfile: Dockerfile.dev
